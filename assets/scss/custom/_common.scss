@@ -1,0 +1,184 @@
+/*  
+================================================================================
+*****************     Font Styles For The Site      ****************************
+================================================================================
+*/
+
+/*--  Open Sans  --*/   
+@font-face {
+    font-family:'open-sans';
+    src: url('../fonts/open-sans/open-sans.eot');
+    src: url('../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans/open-sans.otf') format('otf'),
+        url('../fonts/open-sans/open-sans.woff') format('woff'),
+        url('../fonts/open-sans/open-sans.ttf') format('truetype'),
+        url('../fonts/open-sans/open-sans.svg#open-sans') format('svg'); 
+}
+
+*,*:focus{
+    outline: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+.p-0{      
+    padding: 0 !important;
+}
+html,body{
+    height     : auto;
+    min-height : 100%;
+    font-family: $open-sans;
+}
+.main-contents-wrapper{
+    height          : auto;
+    position        : relative; 
+    min-height      : 100%;
+    background-color: $light-gray1;
+    .right-contents-wrapper{
+        @include margin(0 0 0 248px); 
+        @include transition(all 0.3s ease-in-out);
+        height    : auto;
+        min-height: 100vh;
+        &.open{
+            @include margin(0); 
+            .header-wrapper{
+                @include padding(15px 15px 15px 50px);
+            }
+        }
+    } 
+}
+.filter-data-list,.server-data-list,.db-data-list{
+    li{
+        @include padding(5px 10px);
+    }
+}
+.custom-map{  
+    width    : 100%; 
+    height   : 500px;
+    position : relative; 
+    max-width: 900px;
+    svg{
+        width    : 100%; 
+        height   : 500px;
+        position : relative; 
+        max-width: 900px;
+    }
+}
+.pci-data{
+    max-height: 700px;  
+    overflow-x: hidden;
+}
+.datamap .datamaps-bubble{  
+    /*display: none;*/
+}
+.datamap{
+    circle{
+        cursor      : pointer;
+        stroke      : transparent !important;
+        fill-opacity: 1 !important;
+        /*fill        : url("../../#image") rgba(0, 0, 0, 0) !important;*/
+        &:hover{
+            fill        : url("#image") rgba(0, 0, 0, 0) !important;
+            stroke      : transparent !important;
+            fill-opacity: 1 !important;
+        }
+        /*        &.datamaps-bubble{
+                    cursor      : pointer;
+                    stroke      : transparent !important;
+                    fill-opacity: 1 !important;
+                    fill        : url("../../#image") rgba(0, 0, 0, 0) !important;
+                    &:hover{
+                        fill        : url("../../#image") rgba(0, 0, 0, 0) !important;
+                        stroke      : transparent !important;
+                        fill-opacity: 1 !important;
+                        pointer-events: none;
+                    }
+                }*/
+    }
+    g{         
+        > g{  
+            text{
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+/*--  UI Dialog Styles  --*/
+.ui-dialog .ui-dialog-titlebar-close {
+    background-image: url("../images/ui-icons_777777_256x240.png");
+    background-position: -96px -128px;
+}
+
+/*--  UI Autocomplete Styles  --*/
+.ui-autocomplete{
+    z-index: 9999;
+}
+
+/*--  Select Folder Tree View Styles  --*/
+.select2-dropdown-open .select2-choice{
+    /*text-align: left;*/
+}
+
+/*--  Bootstrap Tags Input Styles  --*/
+.bootstrap-tagsinput-wrapper{
+    .bootstrap-tagsinput{
+        @include border-radius(0);
+        @include box-shadow(none);
+        width : 100%;
+        min-height: 33px;
+        height: auto;
+        border: 1px solid $light-gray1;
+        .label-info{
+            @include margin(0 5px 5px 0);
+            @include padding(3px 5px);
+            color                   : black;
+            width                   : auto;
+            height                  : 26px;
+            border                  : 1px solid #979797;
+            display                 : inline-block;
+            font-size               : 12px;
+            font-weight             : 700;
+            line-height             : 17px;
+            background-image        : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+            -moz-background-image   : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+            -webkit-background-image: linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+        }
+        .form-control{
+            @include border-radius(0);
+            @include box-shadow(none);
+            border        : 1px solid $light-gray1;
+            text-transform: capitalize;
+            &:focus{
+                border: 1px solid $light-gray1;
+            }
+        }
+        .tag[data-role="remove"] {
+            color: #4a90e2; 
+        }
+    }
+}
+
+.rte-autocomplete.dropdown-menu{
+    z-index: 99999;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .rte-autocomplete.dropdown-menu{
+        z-index: 99999 !important;
+    }
+}
+
+@media(min-width:200px) and (max-width:767px){
+    .main-contents-wrapper{
+        .right-contents-wrapper{
+            @include margin(0 0 0 200px);
+        }
+    } 
+}
+@media(min-width:200px) and (max-width:480px){
+    .main-contents-wrapper{
+        .right-contents-wrapper{
+            @include margin(0 0 0 150px);
+        }
+    } 
+}

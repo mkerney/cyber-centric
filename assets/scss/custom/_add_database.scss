@@ -1,0 +1,27 @@
+.add-database-table{
+    tbody{
+        tr{  
+            td{  
+                .selected-data{
+                    &.tags{
+                        color                   : black;
+                        width                   : 90px;
+                        height                  : 26px;
+                        border                  : 1px solid #979797;
+                        padding                 : 3px 5px;
+                        font-size               : 12px;
+                        font-weight             : 700;
+                        line-height             : 17px;
+                        background-image        : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                        -moz-background-image   : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                        -webkit-background-image: linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                    }
+                }
+            }
+            &:nth-of-type(2n){
+                background-color: $light-gray6;
+            }
+        }
+    }
+}
+

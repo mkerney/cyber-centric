@@ -1,0 +1,109 @@
+.equipment-wrapper{
+    .add-device-table{
+        display: none;
+    }  
+    .nav-tabs{
+        > li{
+            > a{
+                @include padding(20px 0 20px 60px);
+                font-size: 14px;
+                &:hover,&:focus{
+                    color: $white;
+                }
+            }
+
+            /*--  Equipment  Tab Styles  --*/
+            &.equipment-tab{
+                > a{
+                    background:#373737 url("../images/tab-icons.png") no-repeat scroll 20px -650px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background:#8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -715px;
+                        &:before{
+                            display: none;
+                        } 
+                    }
+                }
+                &.active{
+                    > a{
+                        background:#8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -715px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.add-new-device-tab{
+                > a{
+                    background: #373737 url("../images/tab-icons.png") no-repeat scroll 20px -780px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -845px;
+                        &:before{
+                            display: none;
+                        } 
+                    }
+                }
+                &.active{
+                    > a{
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -845px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }          
+        }
+    }     
+}
+
+/*--  Media Styles For The Site  --*/
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:768px) and (max-width: 991px){
+    .equipment-wrapper{
+        .nav-tabs{
+            > li{
+                > a{
+                    font-size: ($font-size-base - 3);
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width:767px){
+    .equipment-wrapper{
+        .nav-tabs{
+            > li{
+                > a{
+                    font-size: ($font-size-base - 3);
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width:480px){
+    .equipment-wrapper{
+        .nav-tabs{
+            > li{
+                > a{
+                    @include padding(20px 0 20px 50px);
+                    font-size: ($font-size-base - 4);
+                    -webkit-background-size: 24px auto;
+                    -moz-background-size: 24px auto;
+                    background-size: 24px auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+/*--  Header Wrapper Styles  --*/
+.header-wrapper{
+    @include padding(15px);
+    @include transition(all 0.3s ease-in-out);
+    border-bottom   : 1px solid $light-gray2;
+    background-color: $white;
+    h2{
+        @include margin(5px 0);
+        float      : left;
+        font-size  : ($font-size-base + 4);
+        font-weight: bold;
+        line-height: 21px;
+    }
+    .account-list{
+        @include margin(0);
+        float: right;   
+        li{  
+            a{
+                color  : $light-gray4;
+                display: inline-block;
+                img{   
+                    width  : 30px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 300px) and (max-width: 767px){ 
+    .header-wrapper{
+        h2{
+            font-size: ($font-size-base - 1);
+        }
+        .account-list{
+            li{
+                a{
+                    font-size: ($font-size-base - 2);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:300px) and (max-width: 480px){
+    .header-wrapper{
+        h2{
+            font-size: ($font-size-base - 2);
+        }
+        .account-list{
+            li{
+                a{
+                    font-size: ($font-size-base - 4);
+                    img{
+                        width: 30px;
+                    }
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

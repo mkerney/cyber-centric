@@ -1,0 +1,1826 @@
+{
+	"cities": [{
+		"id": 1,
+		"name": "Kabul",
+		"lat": "34.5333",
+		"long": "69.1667",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "AFG"
+	}, {
+		"id": 7,
+		"name": "Beijing",
+		"lat": "39.9139",
+		"long": "116.3917",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "CHN"
+	}, {
+		"id": 8,
+		"name": "Hong Kong",
+		"lat": "22.267",
+		"long": "114.188",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "HKG"
+	}, {
+		"id": 9,
+		"name": "Mumbai",
+		"lat": "18.975",
+		"long": "72.8258",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "IND"
+	}, {
+		"id": 13,
+		"name": "Vientiane",
+		"lat": "17.9757058",
+		"long": "102.6331035",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "LAO"
+	}, {
+		"id": 22,
+		"name": "Taipei ",
+		"lat": "25.0333",
+		"long": "121.6333",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "TWN"
+	}, {
+		"id": 26,
+		"name": "St. John's",
+		"lat": null,
+		"long": null,
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "ATG"
+	}, {
+		"id": 30,
+		"name": "Roseau",
+		"lat": "18.4667",
+		"long": "-69.95",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "DMA"
+	}, {
+		"id": 32,
+		"name": "St. George's",
+		"lat": "46.4463083",
+		"long": "-116.6204898",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 33,
+		"name": "Kingston",
+		"lat": "44.2333",
+		"long": "-76.5",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "JAM"
+	}, {
+		"id": 34,
+		"name": "Brades",
+		"lat": null,
+		"long": null,
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "MSR"
+	}, {
+		"id": 39,
+		"name": "Port of Spain",
+		"lat": "10.6667",
+		"long": "-61.5167",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "TTO"
+	}, {
+		"id": 40,
+		"name": "Bishkek",
+		"lat": "42.8747",
+		"long": "74.6122",
+		"region": "Central Asia",
+		"global": false,
+		"country_code": "KGZ"
+	}, {
+		"id": 41,
+		"name": "Dushanbe",
+		"lat": "38.5367",
+		"long": "68.78",
+		"region": "Central Asia",
+		"global": false,
+		"country_code": "TJK"
+	}, {
+		"id": 42,
+		"name": "Ashgabat",
+		"lat": "37.9333",
+		"long": "58.3667",
+		"region": "Central Asia",
+		"global": false,
+		"country_code": "TKM"
+	}, {
+		"id": 43,
+		"name": "Vienna",
+		"lat": "48.2",
+		"long": "16.3667",
+		"region": "Europe",
+		"global": true,
+		"country_code": "AUT"
+	}, {
+		"id": 44,
+		"name": "Minsk",
+		"lat": "53.916667",
+		"long": "27.55",
+		"region": "Europe",
+		"global": false,
+		"country_code": "BLR"
+	}, {
+		"id": 56,
+		"name": "Hamburg",
+		"lat": "53.5510846",
+		"long": "9.9936818",
+		"region": "Europe",
+		"global": false,
+		"country_code": "DEU"
+	}, {
+		"id": 54,
+		"name": "Paris",
+		"lat": "48.8567",
+		"long": "2.3508",
+		"region": "Europe",
+		"global": true,
+		"country_code": "FRA"
+	}, {
+		"id": 55,
+		"name": "Frankfurt",
+		"lat": "50.1167",
+		"long": "8.6833",
+		"region": "Europe",
+		"global": true,
+		"country_code": "DEU"
+	}, {
+		"id": 62,
+		"name": "Catania",
+		"lat": "37.5",
+		"long": "15.0903",
+		"region": "Europe",
+		"global": false,
+		"country_code": "ITA"
+	}, {
+		"id": 70,
+		"name": "Amsterdam",
+		"lat": "52.3667",
+		"long": "4.9",
+		"region": "Europe",
+		"global": true,
+		"country_code": "NLD"
+	}, {
+		"id": 78,
+		"name": "Madrid",
+		"lat": "40.416775",
+		"long": "-3.70379",
+		"region": "Europe",
+		"global": true,
+		"country_code": "ESP"
+	}, {
+		"id": 81,
+		"name": "Ankara",
+		"lat": "39.889705",
+		"long": "32.8096837",
+		"region": "Europe",
+		"global": false,
+		"country_code": "TUR"
+	}, {
+		"id": 83,
+		"name": "London",
+		"lat": "51.5072",
+		"long": "0.1275",
+		"region": "Europe",
+		"global": true,
+		"country_code": "GBR"
+	}, {
+		"id": 85,
+		"name": "Sao Paulo",
+		"lat": "-23.533773",
+		"long": "-46.62529",
+		"region": "Latin America",
+		"global": true,
+		"country_code": "BRA"
+	}, {
+		"id": 101,
+		"name": "Algiers",
+		"lat": "36.7667",
+		"long": "3.2167",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "DZA"
+	}, {
+		"id": 102,
+		"name": "Alexandria",
+		"lat": "31.205753",
+		"long": "29.924526",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "EGY"
+	}, {
+		"id": 105,
+		"name": "Abu Dhabi",
+		"lat": "30.9871436",
+		"long": "41.039544",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "ARE"
+	}, {
+		"id": 104,
+		"name": "Riyadh",
+		"lat": "24.755562",
+		"long": "46.589584",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "SAU"
+	}, {
+		"id": 106,
+		"name": "Doha",
+		"lat": "25.368611",
+		"long": "51.551583",
+		"region": "North Africa and Middle East Light",
+		"global": true,
+		"country_code": "QAT"
+	}, {
+		"id": 107,
+		"name": "Calgary",
+		"lat": "51.0486151",
+		"long": "-114.0708459",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 114,
+		"name": "Chicago",
+		"lat": "41.881832",
+		"long": "-87.623177",
+		"region": "North America",
+		"global": false,
+		"country_code": "USA"
+	}, {
+		"id": 116,
+		"name": "New York",
+		"lat": "40.7127",
+		"long": "-74.0059",
+		"region": "North America",
+		"global": true,
+		"country_code": "USA"
+	}, {
+		"id": 117,
+		"name": "Washington DC",
+		"lat": "38.8951",
+		"long": "-77.0367",
+		"region": "North America",
+		"global": true,
+		"country_code": "USA"
+	}, {
+		"id": 118,
+		"name": "Nairobi",
+		"lat": "-1.280423",
+		"long": "36.816311",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "KEN"
+	}, {
+		"id": 119,
+		"name": "Maputo",
+		"lat": "-25.9667",
+		"long": "32.5833",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "MOZ"
+	}, {
+		"id": 2,
+		"name": "Brisbane",
+		"lat": "-27.4710107",
+		"long": "153.0234489",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "AUS"
+	}, {
+		"id": 3,
+		"name": "Perth",
+		"lat": "-31.9535132",
+		"long": "115.8570471",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "AUS"
+	}, {
+		"id": 4,
+		"name": "Sydney",
+		"lat": "-33.8674869",
+		"long": "151.2069902",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "AUS"
+	}, {
+		"id": 5,
+		"name": "Dhaka",
+		"lat": "23.810332",
+		"long": "90.4125181",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "BGD"
+	}, {
+		"id": 10,
+		"name": "Jakarta",
+		"lat": "-6.2087634",
+		"long": "106.845599",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "IDN"
+	}, {
+		"id": 11,
+		"name": "Tokyo",
+		"lat": "35.6885347",
+		"long": "139.8947838",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "JPN"
+	}, {
+		"id": 14,
+		"name": "Kuala Lumpur",
+		"lat": "3.1906265",
+		"long": "101.6836809",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "MYS"
+	}, {
+		"id": 15,
+		"name": "Kathmandu",
+		"lat": "27.6820254",
+		"long": "85.2727929",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "NPL"
+	}, {
+		"id": 17,
+		"name": "Karachi",
+		"lat": "24.8295346",
+		"long": "67.0848108",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "PAK"
+	}, {
+		"id": 18,
+		"name": "Lahore",
+		"lat": "31.4184952",
+		"long": "74.2826254",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "PAK"
+	}, {
+		"id": 20,
+		"name": "Singapore",
+		"lat": "1.352083",
+		"long": "103.819836",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "SGP"
+	}, {
+		"id": 21,
+		"name": "Colombo",
+		"lat": "32.4706605",
+		"long": "-116.8165081",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "LKA"
+	}, {
+		"id": 24,
+		"name": "Hanoi",
+		"lat": "21.0460702",
+		"long": "105.7936205",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "VNM"
+	}, {
+		"id": 25,
+		"name": "The Valley",
+		"lat": "58.8375478",
+		"long": "26.9446039",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "AIA"
+	}, {
+		"id": 28,
+		"name": "Bridgetown",
+		"lat": "13.1132219",
+		"long": "-59.59880889999999",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "BRB"
+	}, {
+		"id": 31,
+		"name": "Santo Domingo",
+		"lat": "18.4020724",
+		"long": "-70.0309613",
+		"region": "Caribbean",
+		"global": true,
+		"country_code": "DOM"
+	}, {
+		"id": 35,
+		"name": "Basseterre",
+		"lat": "17.3026058",
+		"long": "-62.7176924",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "KNA"
+	}, {
+		"id": 37,
+		"name": "Kingstown",
+		"lat": "13.1600249",
+		"long": "-61.2248157",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "VCT"
+	}, {
+		"id": 38,
+		"name": "Paramaribo",
+		"lat": "24.0408943",
+		"long": "-104.6263829",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "SUR"
+	}, {
+		"id": 46,
+		"name": "Sofia",
+		"lat": "44.8079749",
+		"long": "-68.8166829",
+		"region": "Europe",
+		"global": false,
+		"country_code": "BGR"
+	}, {
+		"id": 47,
+		"name": "Zagreb",
+		"lat": "45.82716300000001",
+		"long": "16.043975",
+		"region": "Europe",
+		"global": false,
+		"country_code": "HRV"
+	}, {
+		"id": 49,
+		"name": "Prague",
+		"lat": "50.107557",
+		"long": "14.268755",
+		"region": "Europe",
+		"global": false,
+		"country_code": "CZE"
+	}, {
+		"id": 51,
+		"name": "Tallinn",
+		"lat": "59.43423519999999",
+		"long": "24.7510581",
+		"region": "Europe",
+		"global": false,
+		"country_code": "EST"
+	}, {
+		"id": 52,
+		"name": "Helsinki",
+		"lat": "60.16985569999999",
+		"long": "24.938379",
+		"region": "Europe",
+		"global": false,
+		"country_code": "FIN"
+	}, {
+		"id": 57,
+		"name": "Athens",
+		"lat": "43.1770965",
+		"long": "-77.6227309",
+		"region": "Europe",
+		"global": false,
+		"country_code": "GRC"
+	}, {
+		"id": 59,
+		"name": "Reykjavik",
+		"lat": "64.1404869",
+		"long": "-21.9493575",
+		"region": "Europe",
+		"global": false,
+		"country_code": "ISL"
+	}, {
+		"id": 60,
+		"name": "Dublin",
+		"lat": "32.0778144",
+		"long": "-98.34387579999999",
+		"region": "Europe",
+		"global": false,
+		"country_code": "IRL"
+	}, {
+		"id": 63,
+		"name": "Riga",
+		"lat": "56.9496487",
+		"long": "24.1051864",
+		"region": "Europe",
+		"global": false,
+		"country_code": "LVA"
+	}, {
+		"id": 64,
+		"name": "Vilnius",
+		"lat": "54.6871555",
+		"long": "25.2796514",
+		"region": "Europe",
+		"global": false,
+		"country_code": "LTU"
+	}, {
+		"id": 66,
+		"name": "Skopje",
+		"lat": "41.9973462",
+		"long": "21.4279956",
+		"region": "Europe",
+		"global": false,
+		"country_code": "MKD"
+	}, {
+		"id": 67,
+		"name": "Valletta",
+		"lat": "35.8989085",
+		"long": "14.5145528",
+		"region": "Europe",
+		"global": false,
+		"country_code": "MLT"
+	}, {
+		"id": 69,
+		"name": "Podgorica",
+		"lat": "42.4304196",
+		"long": "19.2593642",
+		"region": "Europe",
+		"global": false,
+		"country_code": "MNE"
+	}, {
+		"id": 71,
+		"name": "Oslo",
+		"lat": "59.9129916",
+		"long": "10.7401975",
+		"region": "Europe",
+		"global": false,
+		"country_code": "NOR"
+	}, {
+		"id": 72,
+		"name": "Poznan",
+		"lat": "52.448092",
+		"long": "16.947451",
+		"region": "Europe",
+		"global": false,
+		"country_code": "POL"
+	}, {
+		"id": 74,
+		"name": "Bucharest",
+		"lat": "44.4267674",
+		"long": "26.1025384",
+		"region": "Europe",
+		"global": false,
+		"country_code": "ROU"
+	}, {
+		"id": 75,
+		"name": "Belgrade",
+		"lat": "44.7841234",
+		"long": "20.493831",
+		"region": "Europe",
+		"global": false,
+		"country_code": "SRB"
+	}, {
+		"id": 77,
+		"name": "Ljubljana",
+		"lat": "46.0569465",
+		"long": "14.5057515",
+		"region": "Europe",
+		"global": false,
+		"country_code": "SVN"
+	}, {
+		"id": 79,
+		"name": "Stockholm",
+		"lat": "47.0571472",
+		"long": "-68.1341815",
+		"region": "Europe",
+		"global": false,
+		"country_code": "SWE"
+	}, {
+		"id": 82,
+		"name": "Kiev",
+		"lat": "50.377793",
+		"long": "30.479604",
+		"region": "Europe",
+		"global": false,
+		"country_code": "UKR"
+	}, {
+		"id": 86,
+		"name": "Antofagasta",
+		"lat": "-23.6509279",
+		"long": "-70.39750219999999",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "CHL"
+	}, {
+		"id": 87,
+		"name": "Arica",
+		"lat": "-18.4782534",
+		"long": "-70.3125988",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "CHL"
+	}, {
+		"id": 89,
+		"name": "Bogota",
+		"lat": "4.710988599999999",
+		"long": "-74.072092",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "COL"
+	}, {
+		"id": 90,
+		"name": "San José",
+		"lat": "9.6257333",
+		"long": "-84.010995",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "CRI"
+	}, {
+		"id": 92,
+		"name": "Quito",
+		"lat": "-0.2606406",
+		"long": "-78.5494552",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "ECU"
+	}, {
+		"id": 93,
+		"name": "San Salvador",
+		"lat": "13.6929403",
+		"long": "-89.2181911",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "SLV"
+	}, {
+		"id": 95,
+		"name": "Acapulco",
+		"lat": "19.132733",
+		"long": "-99.5011918",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "MEX"
+	}, {
+		"id": 96,
+		"name": "Tapachulo",
+		"lat": "19.6897249",
+		"long": "-98.9715794",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "MEX"
+	}, {
+		"id": 97,
+		"name": "Panama City",
+		"lat": "9.0380953",
+		"long": "-79.507932",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "PAN"
+	}, {
+		"id": 99,
+		"name": "Montevideo",
+		"lat": "17.9918131",
+		"long": "-94.56354119999999",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "URY"
+	}, {
+		"id": 100,
+		"name": "Caracas",
+		"lat": "-19.5873844",
+		"long": "-65.7593109",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "VEN"
+	}, {
+		"id": 109,
+		"name": "Montreal",
+		"lat": "25.7695464",
+		"long": "-100.2891304",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 110,
+		"name": "Saskatoon",
+		"lat": "52.1332144",
+		"long": "-106.6700458",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 112,
+		"name": "Vancouver",
+		"lat": "25.7704277",
+		"long": "-100.2889524",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 113,
+		"name": "Winnipeg",
+		"lat": "49.95402199999999",
+		"long": "-97.15937799999999",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 121,
+		"name": "Cape Town",
+		"lat": "-33.9248685",
+		"long": "18.4240553",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "ZAF"
+	}, {
+		"id": 115,
+		"name": "Miami",
+		"lat": "25.7877",
+		"long": "-80.2241",
+		"region": "North America",
+		"global": false,
+		"country_code": "USA"
+	}, {
+		"id": 122,
+		"name": "Johannesburg",
+		"lat": "-26.195246",
+		"long": "28.034088",
+		"region": "Southern and Eastern Africa",
+		"global": true,
+		"country_code": "ZAF"
+	}, {
+		"id": 124,
+		"name": "Khartoum",
+		"lat": "15.564836",
+		"long": "32.529831",
+		"region": "Southern and Eastern Africa",
+		"global": true,
+		"country_code": "SDN"
+	}, {
+		"id": 125,
+		"name": "Dar es Salaam",
+		"lat": "-6.81633",
+		"long": "39.276638",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "TZA"
+	}, {
+		"id": 6,
+		"name": "Phnom Penh",
+		"lat": "11.5448729",
+		"long": "104.8921668",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "KHM"
+	}, {
+		"id": 12,
+		"name": "Seoul",
+		"lat": "37.51032379999999",
+		"long": "127.0610228",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "KOR"
+	}, {
+		"id": 16,
+		"name": "Auckland",
+		"lat": "-36.8009875",
+		"long": "174.7859734",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "NZL"
+	}, {
+		"id": 19,
+		"name": "Manila",
+		"lat": "14.6789069",
+		"long": "121.0650249",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "PHL"
+	}, {
+		"id": 23,
+		"name": "Bangkok",
+		"lat": "13.8610771",
+		"long": "100.647812",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "THA"
+	}, {
+		"id": 27,
+		"name": "Nassau",
+		"lat": "25.0479835",
+		"long": "-77.355413",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "BHS"
+	}, {
+		"id": 29,
+		"name": "Road Town",
+		"lat": "18.4286115",
+		"long": "-64.6184657",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "VGB"
+	}, {
+		"id": 36,
+		"name": "Castries",
+		"lat": "43.677589",
+		"long": "3.985579",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "LCA"
+	}, {
+		"id": 45,
+		"name": "Brussels",
+		"lat": "50.8503396",
+		"long": "4.3517103",
+		"region": "Europe",
+		"global": false,
+		"country_code": "BEL"
+	}, {
+		"id": 48,
+		"name": "Nicosia",
+		"lat": "34.9869601",
+		"long": "33.16888830000001",
+		"region": "Europe",
+		"global": false,
+		"country_code": "CYP"
+	}, {
+		"id": 50,
+		"name": "Copenhagen",
+		"lat": "55.6760968",
+		"long": "12.5683371",
+		"region": "Europe",
+		"global": false,
+		"country_code": "DNK"
+	}, {
+		"id": 53,
+		"name": "Marseilles",
+		"lat": "43.296482",
+		"long": "5.36978",
+		"region": "Europe",
+		"global": true,
+		"country_code": "FRA"
+	}, {
+		"id": 58,
+		"name": "Budapest",
+		"lat": "47.497912",
+		"long": "19.040235",
+		"region": "Europe",
+		"global": false,
+		"country_code": "HUN"
+	}, {
+		"id": 61,
+		"name": "Tel Aviv",
+		"lat": "32.08164",
+		"long": "34.774635",
+		"region": "Europe",
+		"global": false,
+		"country_code": "ISR"
+	}, {
+		"id": 65,
+		"name": "Luxembourg",
+		"lat": "49.815273",
+		"long": "6.129582999999999",
+		"region": "Europe",
+		"global": false,
+		"country_code": "LUX"
+	}, {
+		"id": 68,
+		"name": "Chisinau",
+		"lat": "47.0104529",
+		"long": "28.8638103",
+		"region": "Europe",
+		"global": false,
+		"country_code": "MDA"
+	}, {
+		"id": 73,
+		"name": "Lisbon",
+		"lat": "38.7755936",
+		"long": "-9.135366699999999",
+		"region": "Europe",
+		"global": false,
+		"country_code": "PRT"
+	}, {
+		"id": 76,
+		"name": "Bratislava",
+		"lat": "48.1485965",
+		"long": "17.1077477",
+		"region": "Europe",
+		"global": false,
+		"country_code": "SVK"
+	}, {
+		"id": 80,
+		"name": "Geneva",
+		"lat": "46.2043907",
+		"long": "6.1431577",
+		"region": "Europe",
+		"global": true,
+		"country_code": "CHE"
+	}, {
+		"id": 84,
+		"name": "Buenos Aires",
+		"lat": "-32.9801469",
+		"long": "-60.6409172",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "ARG"
+	}, {
+		"id": 88,
+		"name": "Santiago",
+		"lat": "-33.4378305",
+		"long": "-70.6504492",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "CHL"
+	}, {
+		"id": 91,
+		"name": "Guayaquil",
+		"lat": "-2.6361542",
+		"long": "-80.37832840000002",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "ECU"
+	}, {
+		"id": 94,
+		"name": "Guatemala City",
+		"lat": "14.582898",
+		"long": "-90.51566679999999",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "GTM"
+	}, {
+		"id": 98,
+		"name": "Lima",
+		"lat": "-12.0282729",
+		"long": "-77.0906055",
+		"region": "Latin America",
+		"global": false,
+		"country_code": "PER"
+	}, {
+		"id": 103,
+		"name": "Amman",
+		"lat": "31.9852157",
+		"long": "35.9090785",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "JOR"
+	}, {
+		"id": 108,
+		"name": "Halifax",
+		"lat": "29.1949579",
+		"long": "-81.0078392",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 111,
+		"name": "Toronto",
+		"lat": "29.1949579",
+		"long": "-81.0078392",
+		"region": "North America",
+		"global": false,
+		"country_code": "CAN"
+	}, {
+		"id": 120,
+		"name": "Kigali",
+		"lat": "-1.9705786",
+		"long": "30.1044288",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "RWA"
+	}, {
+		"id": 123,
+		"name": "Mtunzini",
+		"lat": "-28.9596737",
+		"long": "31.7500778",
+		"region": "Southern and Eastern Africa",
+		"global": true,
+		"country_code": "ZAF"
+	}, {
+		"id": 126,
+		"name": "Kampala",
+		"lat": "0.3478931",
+		"long": "32.5647468",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "UGA"
+	}, {
+		"id": 127,
+		"name": "Lusaka",
+		"lat": "-15.3875259",
+		"long": "28.3228165",
+		"region": "Southern and Eastern Africa",
+		"global": false,
+		"country_code": "ZMB"
+	}, {
+		"id": 128,
+		"name": "Beirut",
+		"lat": "33.8923706",
+		"long": "35.511069",
+		"region": "North Africa and Middle East",
+		"global": true,
+		"country_code": "LBN"
+	}],
+	"links": {
+		"Asia-Pacific": [{
+			"id": 1,
+			"endpoint1_id": 23,
+			"endpoint2_id": 13,
+			"capacity": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 2,
+			"endpoint1_id": 24,
+			"endpoint2_id": 6,
+			"capacity": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 3,
+			"endpoint1_id": 8,
+			"endpoint2_id": 7,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps\r\nFunded by CERNET (China) and CSTNET (China)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 4,
+			"endpoint1_id": 8,
+			"endpoint2_id": 24,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 5,
+			"endpoint1_id": 8,
+			"endpoint2_id": 19,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 6,
+			"endpoint1_id": 8,
+			"endpoint2_id": 12,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NIA (South Korea)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 7,
+			"endpoint1_id": 8,
+			"endpoint2_id": 11,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NICT (Japan)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 8,
+			"endpoint1_id": 19,
+			"endpoint2_id": 11,
+			"capacity": 155,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps\r\nFunded by MAFFIN (Japan)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 9,
+			"endpoint1_id": 9,
+			"endpoint2_id": 21,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 10,
+			"endpoint1_id": 9,
+			"endpoint2_id": 5,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 11,
+			"endpoint1_id": 9,
+			"endpoint2_id": 15,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 12,
+			"endpoint1_id": 9,
+			"endpoint2_id": 20,
+			"capacity": 2500,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n2.5 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 13,
+			"endpoint1_id": 20,
+			"endpoint2_id": 23,
+			"capacity": 622,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n622 Mbps\r\nFunded by NICT (Japan) and ThaiREN (Thailand)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 14,
+			"endpoint1_id": 20,
+			"endpoint2_id": 8,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NIA (South Korea)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 15,
+			"endpoint1_id": 20,
+			"endpoint2_id": 10,
+			"capacity": 622,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n622 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 16,
+			"endpoint1_id": 20,
+			"endpoint2_id": 17,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 17,
+			"endpoint1_id": 20,
+			"endpoint2_id": 14,
+			"capacity": 622,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n622 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 18,
+			"endpoint1_id": 20,
+			"endpoint2_id": 3,
+			"capacity": 2500,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n2.5 Gbps\r\nFunded by AARNet (Australia)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 19,
+			"endpoint1_id": 20,
+			"endpoint2_id": 4,
+			"capacity": 2500,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n2.5 Gbps\r\nFunded by AARNet (Australia)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 20,
+			"endpoint1_id": 20,
+			"endpoint2_id": 11,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NII, Japan",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 21,
+			"endpoint1_id": 4,
+			"endpoint2_id": 16,
+			"capacity": 100,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n100 Mbps\r\nFunded by REANNZ (New Zealand)",
+			"url": "http://www.teincc.org"
+		}],
+		"Caribbean": [{
+			"id": 22,
+			"endpoint1_id": 32,
+			"endpoint2_id": 25,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 23,
+			"endpoint1_id": 32,
+			"endpoint2_id": 26,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 24,
+			"endpoint1_id": 32,
+			"endpoint2_id": 29,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 25,
+			"endpoint1_id": 32,
+			"endpoint2_id": 30,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 26,
+			"endpoint1_id": 32,
+			"endpoint2_id": 34,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 27,
+			"endpoint1_id": 32,
+			"endpoint2_id": 35,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 28,
+			"endpoint1_id": 32,
+			"endpoint2_id": 36,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 29,
+			"endpoint1_id": 32,
+			"endpoint2_id": 37,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "Eastern Caribbean States link\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 30,
+			"endpoint1_id": 33,
+			"endpoint2_id": 27,
+			"capacity": 20,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n20 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 31,
+			"endpoint1_id": 33,
+			"endpoint2_id": 32,
+			"capacity": 35,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n20 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 32,
+			"endpoint1_id": 33,
+			"endpoint2_id": 115,
+			"capacity": 155,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n155 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 33,
+			"endpoint1_id": 33,
+			"endpoint2_id": 97,
+			"capacity": 45,
+			"region": "Caribbean",
+			"information": "CaribNet to RedCLARA\r\n45 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 34,
+			"endpoint1_id": 115,
+			"endpoint2_id": 39,
+			"capacity": 155,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n155 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 35,
+			"endpoint1_id": 39,
+			"endpoint2_id": 31,
+			"capacity": 155,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n155 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 36,
+			"endpoint1_id": 39,
+			"endpoint2_id": 38,
+			"capacity": 10,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n10 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 37,
+			"endpoint1_id": 31,
+			"endpoint2_id": 28,
+			"capacity": 20,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n20 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 38,
+			"endpoint1_id": 31,
+			"endpoint2_id": 33,
+			"capacity": 155,
+			"region": "Caribbean",
+			"information": "CaribNet backbone\r\n155 Mbps",
+			"url": "www.ckln.org"
+		}],
+		"East & Southern Africa": [{
+			"id": 39,
+			"endpoint1_id": 70,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 40,
+			"endpoint1_id": 70,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 41,
+			"endpoint1_id": 70,
+			"endpoint2_id": 118,
+			"capacity": 2500,
+			"region": "East \u0026 Southern Africa",
+			"information": "KENET link\r\n2.5 Gbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 42,
+			"endpoint1_id": 121,
+			"endpoint2_id": 83,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 43,
+			"endpoint1_id": 121,
+			"endpoint2_id": 83,
+			"capacity": 10000,
+			"region": "East \u0026 Southern Africa",
+			"information": "TENET Link",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 44,
+			"endpoint1_id": 121,
+			"endpoint2_id": 127,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 45,
+			"endpoint1_id": 125,
+			"endpoint2_id": 127,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 46,
+			"endpoint1_id": 125,
+			"endpoint2_id": 119,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 47,
+			"endpoint1_id": 125,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 48,
+			"endpoint1_id": 126,
+			"endpoint2_id": 120,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 49,
+			"endpoint1_id": 126,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 50,
+			"endpoint1_id": 126,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 51,
+			"endpoint1_id": 83,
+			"endpoint2_id": 70,
+			"capacity": 10000,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 52,
+			"endpoint1_id": 83,
+			"endpoint2_id": 125,
+			"capacity": 155,
+			"region": "East \u0026 Southern Africa",
+			"information": "TERNET link\r\n155 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 53,
+			"endpoint1_id": 83,
+			"endpoint2_id": 119,
+			"capacity": 155,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n155 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 54,
+			"endpoint1_id": 83,
+			"endpoint2_id": 123,
+			"capacity": 310,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n310 Mbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 55,
+			"endpoint1_id": 83,
+			"endpoint2_id": 118,
+			"capacity": 1400,
+			"region": "East \u0026 Southern Africa",
+			"information": "KENET link\r\n1.4 Gbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 56,
+			"endpoint1_id": 123,
+			"endpoint2_id": 70,
+			"capacity": 10000,
+			"region": "East \u0026 Southern Africa",
+			"information": "TENET Link",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 57,
+			"endpoint1_id": 123,
+			"endpoint2_id": 119,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Gbps",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 58,
+			"endpoint1_id": 123,
+			"endpoint2_id": 118,
+			"capacity": 622,
+			"region": "East \u0026 Southern Africa",
+			"information": "UbuntuNet backbone\r\n622 Gbps",
+			"url": "www.ubuntunet.net"
+		}],
+		"global": [{
+			"id": 59,
+			"endpoint1_id": 70,
+			"endpoint2_id": 102,
+			"capacity": 622,
+			"region": "global",
+			"information": "Connects to: ENSTINET; EUN\r\nLink provided by ENSTINET\r\n622 Mbps",
+			"url": "http://wcm.portal.eun.eg:10040/wps/portal"
+		}, {
+			"id": 60,
+			"endpoint1_id": 70,
+			"endpoint2_id": 106,
+			"capacity": 1000,
+			"region": "global",
+			"information": "Connects to: QNREN\r\nLink provided by QNREN\r\n1 Gbps",
+			"url": "http://www.asrenorg.net/?q=content/qatar-0"
+		}, {
+			"id": 61,
+			"endpoint1_id": 70,
+			"endpoint2_id": 118,
+			"capacity": 10000,
+			"region": "global",
+			"information": "Connects to: UbuntuNet\r\nLink provided by UbuntuNet",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 62,
+			"endpoint1_id": 70,
+			"endpoint2_id": 104,
+			"capacity": 1000,
+			"region": "global",
+			"information": "Connects to: SARInet\r\nLink provided by SARInet\r\n1 Gbps",
+			"url": "http://www.asrenorg.net/?q=content/saudi-arabia-0"
+		}, {
+			"id": 63,
+			"endpoint1_id": 128,
+			"endpoint2_id": 83,
+			"capacity": 10,
+			"region": "global",
+			"information": "Connects to: University of Beirut\r\nProvided by UoB\r\n10 Mbps",
+			"url": "http://www.aub.edu.lb/main/Pages/index.aspx"
+		}, {
+			"id": 64,
+			"endpoint1_id": 55,
+			"endpoint2_id": 117,
+			"capacity": 30000,
+			"region": "global",
+			"information": "To: Esnet; Internet2; NISN (NASA)\r\nProvided by Indiana University\r\n30 Gbps",
+			"url": "www.es.net; www.internet2.edu"
+		}, {
+			"id": 65,
+			"endpoint1_id": 83,
+			"endpoint2_id": 11,
+			"capacity": 20000,
+			"region": "global",
+			"information": "Connects to: SINET.\r\nProvided by SINET.\r\n20 Gbps",
+			"url": "www.sinet.ad.jp/?lang=english"
+		}, {
+			"id": 66,
+			"endpoint1_id": 83,
+			"endpoint2_id": 103,
+			"capacity": 155,
+			"region": "global",
+			"information": "Connects to: JUNET\r\nProvided by EUMEDCONNECT3\r\n155 Mbps",
+			"url": "http://www.asrenorg.net/?q=content/jordan-0"
+		}, {
+			"id": 67,
+			"endpoint1_id": 83,
+			"endpoint2_id": 7,
+			"capacity": 10000,
+			"region": "global",
+			"information": "Connects to: CERNET; CSTNET; TEIN\r\nProvided by GÉANT, CERNET \u0026 CSTNET.\r\n10 Gbps",
+			"url": "http://www.edu.cn/"
+		}, {
+			"id": 68,
+			"endpoint1_id": 83,
+			"endpoint2_id": 122,
+			"capacity": 10000,
+			"region": "global",
+			"information": "Connects to: UbuntuNet\r\nProvided by UbuntuNet",
+			"url": "www.ubuntunet.net"
+		}, {
+			"id": 69,
+			"endpoint1_id": 83,
+			"endpoint2_id": 85,
+			"capacity": 5000,
+			"region": "global",
+			"information": "To RedCLARA\r\nProvided by GÉANT \u0026 RedCLARA\r\n5 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 70,
+			"endpoint1_id": 78,
+			"endpoint2_id": 9,
+			"capacity": 2500,
+			"region": "global",
+			"information": "Connects to: TEIN\r\nProvided by TEIN\r\n2.5 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 71,
+			"endpoint1_id": 83,
+			"endpoint2_id": 20,
+			"capacity": 10000,
+			"region": "global",
+			"information": "Connects to: TEIN\r\nProvided by TEIN\r\n10 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 72,
+			"endpoint1_id": 53,
+			"endpoint2_id": 101,
+			"capacity": 2500,
+			"region": "global",
+			"information": "Connects to: ARN\r\nProvided by AfricaConnect2\r\n2.5 Gbps",
+			"url": "http://www.arn.dz"
+		}, {
+			"id": 73,
+			"endpoint1_id": 54,
+			"endpoint2_id": 116,
+			"capacity": 100000,
+			"region": "global",
+			"information": "Connects to: CANARIE; ESnet; Internet2; SINET; TWAREN\r\nProvided by GÉANT\r\n100 Gbps",
+			"url": "www.canarie.ca; www.es.net; www.internet2.edu; www.sinet.ad.jp/?lang=english; www.twaren.net/english/"
+		}, {
+			"id": 74,
+			"endpoint1_id": 54,
+			"endpoint2_id": 31,
+			"capacity": 155,
+			"region": "global",
+			"information": "Connects to: C@ribNET\r\nProvided by CKLN\r\n155 Mbps",
+			"url": "www.ckln.org"
+		}, {
+			"id": 75,
+			"endpoint1_id": 43,
+			"endpoint2_id": 1,
+			"capacity": 155,
+			"region": "global",
+			"information": "Connects to: AfgREN\r\nProvided by SILK-Afghanistan Project\r\n155 Mbps",
+			"url": "http://www.nato.int/cps/en/natolive/topics_53359.htm"
+		}],
+		"Latin America": [{
+			"id": 76,
+			"endpoint1_id": 86,
+			"endpoint2_id": 87,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 77,
+			"endpoint1_id": 87,
+			"endpoint2_id": 98,
+			"capacity": 2500,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n2.5 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 78,
+			"endpoint1_id": 89,
+			"endpoint2_id": 97,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 79,
+			"endpoint1_id": 84,
+			"endpoint2_id": 99,
+			"capacity": 155,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n155 Mbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 80,
+			"endpoint1_id": 84,
+			"endpoint2_id": 88,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 81,
+			"endpoint1_id": 84,
+			"endpoint2_id": 88,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 82,
+			"endpoint1_id": 94,
+			"endpoint2_id": 96,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 83,
+			"endpoint1_id": 98,
+			"endpoint2_id": 91,
+			"capacity": 600,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n600 Mbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 84,
+			"endpoint1_id": 97,
+			"endpoint2_id": 100,
+			"capacity": 2000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n2 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 85,
+			"endpoint1_id": 97,
+			"endpoint2_id": 115,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 86,
+			"endpoint1_id": 97,
+			"endpoint2_id": 115,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 87,
+			"endpoint1_id": 97,
+			"endpoint2_id": 90,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 88,
+			"endpoint1_id": 97,
+			"endpoint2_id": 90,
+			"capacity": 400,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n400 Mbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 89,
+			"endpoint1_id": 90,
+			"endpoint2_id": 93,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 90,
+			"endpoint1_id": 90,
+			"endpoint2_id": 93,
+			"capacity": 400,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n400 mbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 91,
+			"endpoint1_id": 93,
+			"endpoint2_id": 94,
+			"capacity": 2500,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n2.5 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 92,
+			"endpoint1_id": 88,
+			"endpoint2_id": 86,
+			"capacity": 2500,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n2.5 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 93,
+			"endpoint1_id": 88,
+			"endpoint2_id": 89,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 94,
+			"endpoint1_id": 88,
+			"endpoint2_id": 115,
+			"capacity": 5000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n5 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 95,
+			"endpoint1_id": 85,
+			"endpoint2_id": 84,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 96,
+			"endpoint1_id": 85,
+			"endpoint2_id": 115,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 97,
+			"endpoint1_id": 85,
+			"endpoint2_id": 97,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 98,
+			"endpoint1_id": 85,
+			"endpoint2_id": 88,
+			"capacity": 10000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n10 Gbps",
+			"url": "www.redclara.net"
+		}, {
+			"id": 99,
+			"endpoint1_id": 96,
+			"endpoint2_id": 115,
+			"capacity": 1000,
+			"region": "Latin America",
+			"information": "RedCLARA backbone\r\n1 Gbps\r\nProtection path provided by CUDI \u0026 Internet2",
+			"url": "www.redclara.net"
+		}]
+	}
+}

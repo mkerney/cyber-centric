@@ -1,0 +1,72 @@
+.table-responsive{
+    padding: 20px;
+    table{
+        border:1px solid $dark-gray1;	
+        font-size:14px;
+        border-collapse: separate;
+        border-spacing: 1px;
+        th{
+            background-color:$dark-gray2;
+            color:#091959;
+            text-transform:uppercase;
+            padding:10px;
+            text-align: center;
+        }
+        td{
+            color: #767676;
+            padding:10px;	
+            text-align: center;
+            .selected-data{
+                &.tags{
+                    color                   : black;
+                    width                   : 90px;
+                    height                  : 26px;
+                    border                  : 1px solid #979797;
+                    padding                 : 3px 5px;
+                    font-size               : 12px;
+                    font-weight             : 700;
+                    line-height             : 17px;
+                    background-image        : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                    -moz-background-image   : linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                    -webkit-background-image: linear-gradient(180deg, #eee 0%, #d8d8d8 100%);
+                }
+            }
+        }
+        tbody{
+            tr{
+                &:nth-child(2n){
+                    background-color:$light-gray6;	 
+                }
+            }
+        }
+    }
+}
+.classA{
+    background-color:$light-gray6;	
+}
+.status{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    display:inline-block;	
+}
+.status.green{
+    background-color:#099813;	
+}
+.status.red{
+    background-color:#c20000;	
+}
+.status.yellow{
+    background-color:#e3d000;	
+}
+.status.warning{
+    width:17px;
+    border-radius:0px;
+    background:url(../images/warning-icon.png) center top no-repeat;	
+}
+tr.clickable:hover, tr.clickable:focus,
+td.clickable:hover, td.clickable:focus{
+    cursor:pointer;
+    background-color:#eeeeee;
+    color:#333;	
+}

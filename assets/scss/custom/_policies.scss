@@ -1,0 +1,90 @@
+.policies-wrapper{
+    .nav-tabs{
+        > li{
+            width: auto;
+            > a{
+                @include padding(20px 20px 20px 60px);
+                font-size: 14px;
+                &:before{
+                    display: none;
+                }
+                &:hover,&:focus{
+                    color: $white;
+                    &:before{
+                        display: none;
+                    }
+                }
+            }
+
+            /*--  Process  Tab Styles  --*/       
+            &.add-policies-tab{
+                > a{
+                    background: #373737 url("../images/tab-icons.png") no-repeat scroll 20px -1815px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -1878px;
+                        &:before{
+                            display: none;
+                        } 
+                    }  
+                }  
+                &.active{
+                    > a{
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -1878px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }   
+        } 
+    }
+    .white-block{
+        /*@include padding(20px);*/
+    }
+    .policies-table{
+        display: none;
+    }
+}
+
+
+/*--  Media Styles For The Site  --*/
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:768px) and (max-width: 991px){
+
+}
+@media (min-width:200px) and (max-width:767px){
+    .policies-wrapper{
+        .nav-tabs{
+            > li{
+                > a{
+                    font-size: ($font-size-base - 3);
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width:480px){
+    .policies-wrapper{
+        .nav-tabs{
+            > li{  
+                width: 100%;
+                > a{
+                    @include padding(20px 0 20px 50px);
+                    font-size: ($font-size-base - 4);
+                    -webkit-background-size: 24px auto;
+                    -moz-background-size: 24px auto;
+                    background-size: 24px auto;
+                }
+            }
+        }
+    }
+}

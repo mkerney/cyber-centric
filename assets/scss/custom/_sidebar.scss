@@ -1,0 +1,323 @@
+.aside-wrapper{
+    @include transition(all 0.3s ease-in-out 0s);  
+    top             : 0;
+    left            : 0;
+    color           : $white;
+    right           : 0;  
+    width           : 248px;
+    min-height      : 100%; 
+    position        : absolute;
+    background-color: $light-blue;
+
+    /*--  Aside Open Wrapper Styles  --*/
+    &.aside-open-wrapper{
+        left: -248px;   
+        .toggle-aside{
+            right           : -34px;  
+            border          : 1px solid transparent;            
+            background-color: $dark-blue;
+        }
+    }
+    .toggle-aside{
+        @include transition(all 0.3s ease-in-out 0s);  
+        @include border-radius(0 4px 4px 0);
+        top             : 16px;
+        right            : 0;
+        color           : #fff;
+        border          : 1px solid transparent;
+        padding         : 5px 10px;
+        z-index         : 9999;
+        position        : absolute;
+        background-color: transparent;
+    }
+    .panel{
+        @include margin(0);
+        @include border-radius(0);
+        @include box-shadow(none);
+        background-color: transparent;  
+        &.logo-wrapper{
+            @include margin(0 0 40px);
+            @include padding(15px 15px);
+            background-color: $dark-blue;  
+            a{
+                display: inline-block;
+            }
+            img{
+                width : 150px;
+                margin: 0 auto;
+            }
+        }
+        &.active{           
+            background-color: $lighter-blue;  
+            .panel-heading{
+                a{
+                    color: $green-yellow;
+                }
+            }
+        }
+        .panel-heading{
+            a{
+                @include padding(0 0 0 30px);
+                @include transition(all 0.3s ease-in-out 0s);
+                color    : $white;                
+                display  : inline-block;
+                font-size: ($font-size-base);
+                position: relative;
+                &:before{
+                    @include size(25px,22px);
+                    @include transition(all 0.3s ease-in-out 0s);  
+                    position: absolute;
+                    top: -3px;
+                    left: 0;
+                    content: "";
+                    background: url("../images/sidebar-sprite.png") no-repeat;
+                    background-position: 0 0;
+                    -webkit-background-size: 50px;
+                    -moz-background-size: 50px;
+                    background-size: 50px;
+                }
+                &:hover{
+                    color: $green-yellow;
+                }
+            }
+        }
+        &.dashboard-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 0;
+                    }  
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px 0;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px 0;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.equipment-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -20px;
+                    }  
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -20px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px -20px;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.personnel-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -42px;
+                    }  
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -42px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{    
+                        &:before{
+                            background-position: -25px -42px;  
+                        } 
+                    }
+                }
+            }
+        }
+        &.documents-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -62px;
+                    } 
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -62px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px -62px;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.applications-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -82px;
+                    } 
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -82px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px -82px;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.data-backup-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -102px;
+                    } 
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -102px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px -102px;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.policies-panel{
+            .panel-heading{
+                a{
+                    &:before{
+                        background-position: 0 -145px;
+                    } 
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: -25px -145px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: -25px -145px;  
+                        }  
+                    }
+                }
+            }
+        }
+        &.my-account-panel{
+            background-color: $green-yellow;
+            .panel-heading{
+                a{
+                    color: $dark-gray;
+                    &:before{
+                        background-position: 0 -122px;
+                    }  
+                    &:hover,&:focus{
+                        &:before{
+                            background-position: 0 -122px;  
+                        } 
+                    }
+                }
+            }
+            &.active{
+                .panel-heading{
+                    a{
+                        &:before{
+                            background-position: 0 -122px;  
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:300px) and (max-width:767px){
+    .aside-wrapper{
+        width: 200px;
+        &.aside-open-wrapper{
+            left: -200px;
+
+        }
+        .toggle-aside{
+            right: 0;
+            top: 13px;
+        }
+        .panel{
+            &.logo-wrapper{
+                img{
+                    width: 120px;
+                }
+            }
+            .panel-heading{
+                a{
+                    font-size: ($font-size-base - 1);
+                }
+            }
+        }
+    } 
+}
+@media(min-width:300px) and (max-width:480px){
+    .aside-wrapper{
+        width: 150px;
+        &.aside-open-wrapper{
+            left: -150px;
+
+        }
+        .toggle-aside{
+            right: 0;  
+            top: 10px;
+        }
+        .panel{
+            &.logo-wrapper{
+                text-align:left;
+                img{
+                    width: 100px;
+                }
+            }
+            .panel-heading{
+                a{
+                    font-size: ($font-size-base - 2);
+                }
+            }
+        }
+    } 
+}

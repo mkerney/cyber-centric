@@ -1,0 +1,21 @@
+.paging-nav{
+    @include padding(0 0 20px);
+    text-align: center;
+    width: 100%;
+    a{
+        @include transition(all 0.3s ease-in-out);
+        @include border-radius(0);
+        @include padding(3px 8px);
+        @include margin(auto 5px);
+        text-decoration: none;
+        display: inline-block;
+        font-weight: normal;
+        background: $white;
+        color: $light-blue;
+        border: 1px solid $light-blue;
+    }
+    .selected-page{
+        background: $light-blue;
+        color: $white;
+    }
+}

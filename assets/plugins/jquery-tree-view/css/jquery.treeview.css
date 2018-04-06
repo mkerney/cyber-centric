@@ -1,0 +1,191 @@
+.treeview, .treeview ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.treeview ul {
+    background-color: white;
+    margin-top: 0;
+}
+
+.treeview ul ul {
+    margin-left: 4px;
+}
+
+.treeview .hitarea {
+    height: 12px;
+    width: 12px;
+    margin-left: -12px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
+/* fix for IE6 */
+* html .hitarea {
+    display: inline-block;
+    float:none;
+}
+
+.treeview .hitarea.collapsable-hitarea {
+    background: url(../images/arrow-down.png) top center no-repeat;
+}
+.treeview .hitarea.expandable-hitarea {
+    background: url(../images/arrow-right.png) center center no-repeat;
+}
+
+.treeview li {
+    margin: 0;
+    padding: 3px 0pt 3px 10px;
+    line-height: 10px;
+}
+
+.treeview li a.folder {
+    background: url(../images/folder-closed.png) 5px center no-repeat;
+}
+
+.treeview li a.file {
+    background: url(../images/file.gif) 5px center no-repeat;
+}
+
+.treeview li.collapsable a.folder {
+    background: url(../images/folder-open.png) 5px center no-repeat;
+}
+.treeview li.collapsable a.folder:before {
+/*   border-bottom-color: #f00;
+    border-top-width: 0;
+    content: " ";
+    margin-left: -10px;
+    top: 1px;*/
+}
+
+/* Custom css starts */
+.treeview li.folder0 ul li.leaf0{
+    padding-left: 0px;
+}
+.treeview li.folder0 ul li.leaf0 a.file{
+    background: none;
+    padding-left: 0px;
+    line-height:20px;
+    font-size: 20px;
+}
+.treeview li.folder1 ul li.leaf0 a.file{
+    background: url(../images/1.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder1 ul li.leaf1 a.file{
+    background: url(../images/2.jpg) 5px center no-repeat; 
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder1 ul li.leaf2 a.file{
+    background: url(../images/3.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+
+.treeview li.folder2 ul li.leaf0 a.file{
+    background: url(../images/4.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder2 ul li.leaf1 a.file{
+    background: url(../images/5.jpg) 5px center no-repeat; 
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder2 ul li.leaf2 a.file{
+    background: url(../images/6.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+
+.treeview li.folder3 ul li.leaf0 a.file{
+    background: url(../images/1.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder3 ul li.leaf1 a.file{
+    background: url(../images/3.jpg) 5px center no-repeat; 
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+.treeview li.folder3 ul li.leaf2 a.file{
+    background: url(../images/5.jpg) 5px center no-repeat;
+    padding-left: 60px;
+    line-height:50px;
+    font-size: 20px;
+}
+
+.treeview li.leaf {
+    padding-left: 20px;
+}
+
+.treeview li.expandable, .treeview li.collapsable {
+    margin: 0;
+    padding: 3px 0 3px 20px;
+}
+
+.treeview a.selected {
+    background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview .placeholder {
+    background: url(../images/ajax-loader.gif) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block;
+}
+
+/* Custom: */
+
+.bootstrap-select.btn-group .dropdown-menu {
+    padding: 3px 0 0px;
+}
+
+.treeview li > a {
+    padding: 2px 20px 2px 26px;
+    clear: none !important;
+    display: block;
+}
+
+.treeview li a.folder:hover, .treeview li a.file:hover {
+    background-color: lightblue;
+    color: black;
+    text-decoration: none !important;
+    padding: 2px 20px 2px 26px;
+}
+
+.treeview > ul {
+    padding-top:0;
+}
+
+.folder-search input{
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+    padding: 3px;
+}
+   
+.select2-drop.inner-folder-picker li.folder0 ul li a,
+.select2-drop.inner-folder-picker li.folder1 ul li a,
+.select2-drop.inner-folder-picker li.folder2 ul li ul li a.folder,
+.select2-drop.inner-folder-picker li.folder2 ul li.leaf1 a.folder,
+.select2-drop.inner-folder-picker li.folder2 ul li.leaf2 a.folder{
+    padding-left:0 !important;
+    background: url("../images/folder-open.png") no-repeat scroll 20px center rgba(0, 0, 0, 0);
+}

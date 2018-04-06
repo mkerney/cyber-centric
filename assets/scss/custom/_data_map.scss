@@ -1,0 +1,84 @@
+.data-map-wrapper{
+    .form-wrapper{
+        .form-group{
+            @include margin(0);
+            .control-label{
+                @include margin(0 0 8px);
+                display: block;
+                text-align: left;
+            }
+            .radio-inline{
+                margin: 0px 10px 0 0;
+                height: 33px;
+                padding: 8px 0 8px 20px;
+                input{
+                    @include margin(1px 0 0 -20px);
+                }
+            }
+            .form-control-feedback{
+                top:9px;
+            }
+            .form-control{
+                height: 33px;              
+            }
+            option{
+                @include padding(6px 12px);
+            }
+        }
+        .col-sm-2{
+            padding: 0;
+        }
+        .btn-submit{
+            @include margin(25px 15px 0 0);
+            @include padding(6px 12px);
+            float: right;
+        }
+    }
+    .map-main-wrapper{
+        display: none;
+    }
+    #containerDataMap{
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .cloud-wrapper{
+        @include padding(20px 20px 0);
+        .btn-cloud{
+            @include margin(0 0 20px);
+        }
+        .well{
+            @include margin(0 0 20px);
+            .progress{
+                @include margin(0);
+                background-color: $white;
+                color: $white;
+                .progress-bar-success{
+                    @include padding(0 5px);
+                }
+            }
+        }
+    }
+    .table-responsive{
+        @include padding(0 20px 20px);
+        &.data-map-table{
+            @include padding(20px);
+        }
+    }
+}  
+
+/*--  Media Styles For The Site  --*/
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:768px) and (max-width: 991px){
+
+}
+@media (min-width:200px) and (max-width:767px){
+
+}
+@media (min-width:200px) and (max-width:480px){
+
+}

@@ -1,0 +1,242 @@
+.datepicker{z-index:1151 !important;}
+body.modal-open .datepicker {
+    z-index: 1200 !important;
+}
+.threats-wrapper{
+    .add-threats-table{ 
+        display: none;  
+        .gray{
+            border: 2px solid #D3D3D3;
+            font-weight: bold;
+            background-color: #D3D3D3;
+            color: #000;
+            text-align: center;
+        }
+        .orange{
+            border: 2px solid $orange;  
+            font-weight: bold;
+            text-align: center;
+        }
+        .red{
+            border: 2px solid $red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .green{
+            border: 2px solid $green;
+            font-weight: bold;
+            text-align: center;
+        }
+        .yellow{
+            border: 2px solid $yellow;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    .vulnerabilities-table{  
+        tbody{ 
+            tr{
+                td{
+                    &:last-of-type{
+                        text-align: left;
+                    }
+                }
+                &:nth-child(2n){
+                    background-color:$light-gray6;
+                    td{
+                        background-color:$light-gray6;
+                    }
+                }
+            }
+        }
+    }
+
+    .tiles-main-wrapper{
+        @include padding(20px);
+        .tiles-wrapper{  
+            @include border-radius(5px);
+            padding: 15px;
+            background-color: $white;
+            border: 1px solid $light-gray2;
+            a{
+                display: inline-block;
+                min-height: 40px;
+                line-height: 40px;
+                img{
+                    display: inline-block;
+                    max-width: 150px;
+                    max-height: 100px;
+                    &.cvebanner{
+                        max-width: 80px;
+                    }
+                    &.norse{
+                       max-width: 130px;
+                    }
+                }
+            }
+            h2{
+                color      : $black;  
+                margin     : 15px 0 0;
+                font-size  : ($font-size-base * 1.5);
+                font-weight: bold;  
+                .help-block{
+                    color      : $light-gray;
+                    margin     : 5px 0;
+                    font-size  : ($font-size-base - 1);
+                }
+            }
+        }
+        + .tiles-main-wrapper{
+            margin: 8px -15px 0;
+        }
+    }
+    .file-container-wrapper{
+        border-top: 1px solid $dark-gray1;
+        padding: 20px;
+        display: none;
+        .tags-wrapper{
+            margin: 0 0 15px;
+            width: 50%;
+            float: right;
+        }  
+        label{
+            margin: 7px 0 0;
+            text-align: right;
+        }  
+    }
+    .file-wrapper{
+        @include border-radius(3px);
+        border: 1px solid $dark-gray1;
+        width: 100%;
+        background-color: $dark-gray2;  
+    }
+    .nav-tabs{
+        > li{
+            width: auto;
+            > a{
+                @include padding(20px 20px 20px 60px);
+                font-size: 14px;
+                &:before{
+                    display: none;
+                }
+                &:hover,&:focus{
+                    color: $white;
+                    &:before{
+                        display: none;
+                    }
+                }
+            }
+
+            /*--  Threats  Tab Styles  --*/       
+            &.threat-tab{
+                > a{
+                    background: #373737 url("../images/tab-icons.png") no-repeat scroll 20px -390px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -456px;
+                        &:before{
+                            display: none;
+                        } 
+                    }  
+                }
+                &.active{
+                    > a{
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -456px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }                  
+            &.add-vulnerabilities-tab{
+                > a{
+                    background: #373737 url("../images/tab-icons.png") no-repeat scroll 20px -1937px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -1996px;
+                        &:before{
+                            display: none;
+                        } 
+                    }  
+                }
+                &.active{
+                    > a{
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -1996px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }                  
+            &.add-threat-stream-tab{
+                > a{
+                    background: #373737 url("../images/tab-icons.png") no-repeat scroll 20px -2059px;
+                    &:before{
+                        display: none;
+                    }  
+                    &:hover,&:focus{
+                        color: #403e41;
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -2121px;
+                        &:before{
+                            display: none;
+                        } 
+                    }  
+                }
+                &.active{
+                    > a{
+                        background: #8eff3e url("../images/tab-icons.png") no-repeat scroll 20px -2121px;
+                        &:before{
+                            display: none;
+                        }
+                    }
+                }
+            }                  
+        }
+    } 
+
+}
+
+
+/*--  Media Styles For The Site  --*/
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:768px) and (max-width: 991px){
+
+}
+@media (min-width:200px) and (max-width:767px){
+    .threats-wrapper{
+        .nav-tabs{
+            > li{
+                > a{
+                    font-size: ($font-size-base - 3);
+                }
+            }
+        }
+    }
+}
+@media (min-width:200px) and (max-width:480px){
+    .threats-wrapper{
+        .nav-tabs{
+            > li{
+                width: 100%;
+                > a{
+                    @include padding(20px 0 20px 50px);
+                    font-size: ($font-size-base - 4);
+                    -webkit-background-size: 24px auto;
+                    -moz-background-size: 24px auto;
+                    background-size: 24px auto;
+                }
+            }
+        }
+    }
+}

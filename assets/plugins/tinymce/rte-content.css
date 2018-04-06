@@ -1,0 +1,23 @@
+body {
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    min-height: 100%;
+    padding: 15px;
+}
+span#autocomplete {
+    background-color: #eee;
+    border: solid 1px #ddd;
+}
+span#autocomplete #autocomplete-delimiter {
+    background-color: #ddd;
+    padding: 0 2px;
+}
+span#autocomplete #autocomplete-searchtext {
+    padding: 0 4px 0 2px;
+}
+p{
+    height: auto;
+    min-height: 270px;
+    margin: 0;
+}

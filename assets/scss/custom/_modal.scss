@@ -1,0 +1,146 @@
+.modal{
+    .modal-header{
+        .close{
+            margin-top: 0;
+        }
+    }
+    .modal-body{
+        .form-horizontal{
+            .form-group{
+                @include margin(0 0 20px);
+                .form-control{
+                    @include border-radius(0);
+                    @include box-shadow(none);
+                    border        : 1px solid $light-gray2;
+                    text-transform: capitalize;
+                    &:focus{
+                        border: 1px solid $light-gray2;
+                    }
+                }
+                .form-control-feedback{
+                    right         : 0;
+                    cursor        : pointer;
+                    line-height   : 34px !important;
+                    pointer-events: auto;
+                }
+            }
+            .date-time-wrapper{
+                .input-group-addon{
+                    top     : 0;
+                    width   : 35px;
+                    right   : 0;
+                    height  : 34px;
+                    z-index : 4;
+                    display : inline-block;
+                    position: absolute;
+                }
+            }
+            .control-label{
+                text-align: left;
+            }
+            .policy-label{
+                @include margin(0 0 15px);
+            }
+            .error{
+                @include padding(6px 12px);
+                color      : #c9302c;
+                font-weight: normal;
+            }
+            .form-control{
+                &:focus{
+                    @include box-shadow(none);
+                }
+            }
+            ul{
+                margin: 7px 0 0;
+            }
+            .form-group{
+                &:last-of-type{
+                    margin-bottom: 0;
+                }
+            }
+            .has-feedback label ~ .form-control-feedback{
+                top: 0;
+            }
+        }
+    }
+}
+.modal-dialog {
+    margin: 77px auto;
+}
+
+
+.policy-content-wrapper{
+    .modal-body{
+        position: relative;
+        /*        button{
+                    top             : -15px;
+                    width           : 30px;
+                    right           : -15px;
+                    height          : 30px;
+                    opacity         : 1;
+                    position        : absolute;
+                    box-shadow      : 0 0 6PX;
+                    background-color: $green-yellow;
+                    @include border-radius(50%);
+                }*/
+        .policy-content{
+            h4{
+                color        : $modal-blue;
+                margin       : 0 0 20px 0;
+                font-size    : 18px;
+                font-weight  : 600;
+                line-height  : 30px;
+                border-bottom: 1px solid $modal-blue;
+            }
+            p{
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.policy-member-wrapper{
+    .modal-body{
+        position: relative;
+        /*button{
+            top             : -15px;
+            width           : 30px;
+            right           : -15px;
+            height          : 30px;
+            opacity         : 1;
+            position        : absolute;
+            box-shadow      : 0 0 6PX;
+            background-color: $green-yellow;
+            @include border-radius(50%);
+        }*/
+        .person-bio{
+            h2{
+                color        : $modal-blue;
+                margin       : 0 0 20px 0;  
+                font-size    : 18px;
+                font-weight  : 600;
+                line-height  : 30px;
+                border-bottom: 1px solid $modal-blue;
+            }
+            .person-bio-content{
+                position    : relative;
+                padding-left: 120px;
+                img{
+                    top     : 5px;
+                    left    : 0;
+                    width   : 100px;
+                    height  : 100px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 300px) and (max-width: 767px){
+    .modal{
+        @include padding(0 15px);
+    }
+}

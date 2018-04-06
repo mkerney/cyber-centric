@@ -1,0 +1,326 @@
+{
+	"cities": [{
+		"id": 1,
+		"name": "Kabul",
+		"lat": "41.434490",
+		"long": "-96.152344",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "AFG"
+	}, {
+		"id": 2,
+		"name": "Beijing",
+		"lat": "32.166313",
+		"long": "-86.660156",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "CHN"
+	}, {
+		"id": 3,
+		"name": "Hong Kong",
+		"lat": "45.267155",
+		"long": "-87.011719",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "HKG"
+	}, {
+		"id": 4,
+		"name": "Mumbai",
+		"lat": "19.880392",
+		"long": "-83.496094",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "IND"
+	}, {
+		"id": 5,
+		"name": "Vientiane",
+		"lat": "19.549437",
+		"long": "-75.058594",
+		"region": "Asia-Pacific",
+		"global": false,
+		"country_code": "LAO"
+	}, {
+		"id": 6,
+		"name": "Taipei ",
+		"lat": "14.849231",
+		"long": "-81.035156",
+		"region": "Asia-Pacific",
+		"global": true,
+		"country_code": "TWN"
+	}, {
+		"id": 7,
+		"name": "St. John's",
+		"lat": null,
+		"long": null,
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "ATG"
+	}, {
+		"id": 8,
+		"name": "Roseau",
+		"lat": "13.827412",
+		"long": "-71.191406",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "DMA"
+	}, {
+		"id": 9,
+		"name": "St. George's",
+		"lat": "47.212106",
+		"long": "20.566406",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 10,
+		"name": "St. George's",
+		"lat": "54.718275",
+		"long": "49.042969",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 11,
+		"name": "St. George's",
+		"lat": "50.673835",
+		"long": "60.292969",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 12,
+		"name": "St. George's",
+		"lat": "61.391459",
+		"long": "65.566406",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 13,
+		"name": "St. George's",
+		"lat": "60.710824",
+		"long": "78.925781",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 14,
+		"name": "St. George's",
+		"lat": "53.271783",
+		"long": "94.394531",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 15,
+		"name": "St. George's",
+		"lat": "69.622685",
+		"long": "57.480469",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 16,
+		"name": "St. George's",
+		"lat": "56.504955",
+		"long": "42.011719",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 17,
+		"name": "St. George's",
+		"lat": "66.473823",
+		"long": "53.613281",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 18,
+		"name": "St. George's",
+		"lat": "62.870179",
+		"long": "49.042969",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 19,
+		"name": "St. George's",
+		"lat": "58.211238",
+		"long": "39.550781",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "GRD"
+	}, {
+		"id": 20,
+		"name": "Kingston",
+		"lat": "66.333095",
+		"long": "67.324219",
+		"region": "Caribbean",
+		"global": false,
+		"country_code": "JAM"
+	}],
+	"links": {
+		"Asia-Pacific": [{
+			"id": 1,
+			"endpoint1_id": 1,
+			"endpoint2_id": 5,
+			"capacity": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 2,
+			"endpoint1_id": 2,
+			"endpoint2_id": 8,
+			"capacity": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 3,
+			"endpoint1_id": 3,
+			"endpoint2_id": 7,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps\r\nFunded by CERNET (China) and CSTNET (China)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 4,
+			"endpoint1_id": 3,
+			"endpoint2_id": 19,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 5,
+			"endpoint1_id": 4,
+			"endpoint2_id": 9,
+			"capacity": 1000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n1 Gbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 6,
+			"endpoint1_id": 5,
+			"endpoint2_id": 10,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NIA (South Korea)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 7,
+			"endpoint1_id": 4,
+			"endpoint2_id": 17,
+			"capacity": 10000,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Gbps\r\nFunded by NICT (Japan)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 8,
+			"endpoint1_id": 5,
+			"endpoint2_id": 19,
+			"capacity": 155,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n10 Mbps\r\nFunded by MAFFIN (Japan)",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 9,
+			"endpoint1_id": 1,
+			"endpoint2_id": 10,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 10,
+			"capacity": 45,
+			"endpoint1_id": 12,
+			"endpoint2_id": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 11,
+			"capacity": 45,
+			"endpoint1_id": 15,
+			"endpoint2_id": 6,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 12,
+			"capacity": 45,
+			"endpoint1_id": 17,
+			"endpoint2_id": 10,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 13,
+			"capacity": 45,
+			"endpoint1_id": 19,
+			"endpoint2_id": 8,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 14,
+			"endpoint1_id": 2,
+			"endpoint2_id": 14,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 15,
+			"endpoint1_id": 3,
+			"endpoint2_id": 16,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 16,
+			"endpoint1_id": 4,
+			"endpoint2_id": 10,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 17,
+			"endpoint1_id": 5,
+			"endpoint2_id": 17,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 18,
+			"capacity": 45,
+			"endpoint1_id": 20,
+			"endpoint2_id": 3,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		}, {
+			"id": 19,
+			"endpoint1_id": 6,
+			"endpoint2_id": 7,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		},{
+			"id": 20,
+			"endpoint1_id": 7,
+			"endpoint2_id": 10,
+			"capacity": 45,
+			"region": "Asia-Pacific",
+			"information": "TEIN* backbone\r\n45 Mbps",
+			"url": "http://www.teincc.org"
+		}]
+	}
+}

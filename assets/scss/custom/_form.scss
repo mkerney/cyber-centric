@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+     Author     : Sanjay Verma
+*/
+
+/*==============================================================================
+*******************        Form Wrapper Styles For The Site    *****************
+==============================================================================*/
+.form-wrapper{   
+    @include padding(20px);
+    .form-group{
+        label{               
+            @include margin(11px 0 0);  
+            font-family:  $open-sans;
+            font-size: $font-size-base;
+            line-height: ($line-height-computed *.75);
+            font-weight: normal;   
+            text-align: right;
+        }
+        .form-control{
+            @include margin(0);
+            @include box-shadow(none);
+            @include border-radius(0);
+            font-family:  $open-sans;
+            color: $dark-gray;
+            font-size: $font-size-base;
+            height: ($base-width *2);
+            border: 1px solid $light-gray1;                
+            &:focus{
+                @include border-radius(0);
+                @include box-shadow(none);
+                border: 1px solid $light-gray1;
+            }
+            &::-webkit-input-placeholder{
+                font-family:  $open-sans;
+                font-size: $font-size-base;
+                color: $dark-gray;
+                opacity: 1;  
+            }
+            &:-moz-placeholder{
+                font-family:  $open-sans;
+                font-size: $font-size-base;
+                color: $dark-gray;
+                opacity: 1; 
+            }
+            &::-moz-placeholder{
+                font-family:  $open-sans;
+                font-size: $font-size-base;
+                color: $dark-gray;
+                opacity: 1;   
+            }
+            &::-ms-input-placeholder{
+                font-family:  $open-sans;
+                font-size: $font-size-base;
+                color: $dark-gray;
+                opacity: 1; 
+            }
+        }
+        label.error{
+            color      : #c9302c;
+            font-weight: normal;
+            text-align: left;
+            font-size: 13px;
+        }
+        textarea{
+            &.form-control{
+                height: auto;
+            }
+        }
+        .radio,.checkbox{
+            .control-label{
+                display: inline-block;
+                line-height: $line-height-computed;
+            }
+        }    
+    }  
+}
+
+/*--  Media Styles For The Site  --*/   
+@media (min-width:1200px){
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 200px) and (max-width: 767px) {
+
+}
+@media (min-width: 200px) and (max-width: 480px) {
+
+}

@@ -1,0 +1,23 @@
+/*
+================================================================================
+********************   Custom  Mixins For The Site      ************************
+================================================================================
+*/
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin center-position() {
+    @include translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+@mixin padding($padding) {
+    padding: $padding;
+}
+@mixin margin($margin) {
+    margin: $margin;
+}
